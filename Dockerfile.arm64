@@ -7,7 +7,7 @@ RUN apt-get -qq install unzip wget
 RUN mkdir -p /dart/
 WORKDIR /dart/
 
-RUN wget -q https://storage.googleapis.com/dart-archive/channels/stable/release/2.2.0/sdk/dartsdk-linux-arm64-release.zip
+RUN wget -q https://storage.googleapis.com/dart-archive/channels/stable/release/2.7.1/sdk/dartsdk-linux-arm64-release.zip
 RUN unzip dartsdk-linux-arm64-release.zip
 
 FROM debian:latest
